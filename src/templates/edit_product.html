@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Edit Product</h1>
+    <form method="post">
+        <input type="text" name="title" value="{{ product.title }}" placeholder="Title"><br>
+        <input type="text" name="author" value="{{ product.author }}" placeholder="Author"><br>
+        <input type="number" name="price" value="{{ product.price }}" placeholder="Price"><br>
+        <input type="submit" value="Update Product">
+    </form>
+</body>
+</html>
